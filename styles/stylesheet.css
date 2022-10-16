@@ -90,7 +90,7 @@ header {
 }
 #header {
   background-image: url("../images/hero.png");
-  background-size: 95vw 100vh;
+  background-size: 90vw 100vh;
   height: 100vh;
   width: 100%;
 }
