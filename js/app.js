@@ -372,7 +372,6 @@ const logoImgs = document.querySelectorAll(`.logo-img`);
 const modeImg = document.getElementById(`mode-img`);
 const addToCartImg = document.getElementById(`addtocart-img`);
 const header = document.getElementById(`header`);
-const hero = document.getElementById(`hero`);
 
 modeBtn.addEventListener(`click`, () => {
   isDarkModeEnabled ? changeToLightMode() : changeToDarkMode();
@@ -398,7 +397,6 @@ changeToDarkMode = () => {
   });
   modeImg.src = `images/light-mode.png`;
   addToCartImg.src = `images/atc-dark.png`;
-  hero.src = `images/hero-dark.png`;
   header.parentElement.style.backgroundColor = `#515256`;
 };
 
@@ -421,6 +419,5 @@ changeToLightMode = () => {
   });
   modeImg.src = `images/dark-mode.png`;
   addToCartImg.src = `images/atc.png`;
-  hero.src = `images/hero.png`;
   header.parentElement.style.backgroundColor = `#e3e6f3`;
 };
