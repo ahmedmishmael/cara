@@ -117,6 +117,16 @@ header {
   border-radius: 5px;
 }
 
+@media screen and (max-width: 767px) {
+  #advantages .box {
+    width: 70%;
+  }
+  #advantages .col-lg-2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /* products */
 
 .products {
@@ -161,6 +171,7 @@ h5 {
   border-radius: 0;
   padding: 0;
 }
+
 /* repair services */
 
 #repair-services {
