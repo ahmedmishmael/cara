@@ -89,9 +89,7 @@ header {
   background-color: #e3e6f3;
 }
 #header {
-  background-image: url("../images/hero.png");
-  background-size: 90vw 100vh;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
 }
 #header-txt {
