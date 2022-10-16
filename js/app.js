@@ -182,7 +182,14 @@ products.map((e) => {
   </div>
   </div>`;
   const createProduct = document.createElement(`div`);
-  createProduct.classList.add(`col-lg-3`, `col-md-6`, `mb-5`);
+  createProduct.classList.add(
+    `col-lg-3`,
+    `col-md-6`,
+    `mb-5`,
+    `wow`,
+    `animate__animated`,
+    `animate__fadeInUp`
+  );
   createProduct.innerHTML = product;
   e.section === `Featured products`
     ? featuredProducts.appendChild(createProduct)
