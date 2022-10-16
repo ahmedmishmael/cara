@@ -90,7 +90,7 @@ header {
 }
 #header {
   background-image: url("../images/hero.png");
-  background-size: 100vw 100vh;
+  background-size: 95vw 100vh;
   height: 100vh;
   width: 100%;
 }
@@ -254,7 +254,7 @@ h5 {
 /* footer */
 
 footer {
-  color: #515b52;
+  color: #515256;
 }
 
 footer h5 {
@@ -262,12 +262,12 @@ footer h5 {
 }
 
 footer a {
-  color: #515b52;
+  color: #515256;
   text-decoration: none;
 }
 
 footer a:hover {
-  color: #515b52;
+  color: #515256;
 }
 
 .store img {
