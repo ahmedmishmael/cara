@@ -380,6 +380,7 @@ modeBtn.addEventListener(`click`, () => {
 changeToDarkMode = () => {
   isDarkModeEnabled = true;
   navBar.style.backgroundColor = `black`;
+  navBar.classList.replace(`navbar-light`, `navbar-dark`);
   document.body.style.backgroundColor = `black`;
   cards.forEach((e) => {
     e.style.backgroundColor = `#18191a`;
@@ -403,6 +404,7 @@ changeToDarkMode = () => {
 changeToLightMode = () => {
   isDarkModeEnabled = false;
   navBar.style.backgroundColor = `#e3e6f3`;
+  navBar.classList.replace(`navbar-light`, `navbar-dark`);
   document.body.style.backgroundColor = `white`;
   cards.forEach((e) => {
     e.style.backgroundColor = `white`;
