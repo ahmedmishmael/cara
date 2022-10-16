@@ -396,7 +396,7 @@ changeToDarkMode = () => {
   });
   modeImg.src = `images/light-mode.png`;
   addToCartImg.src = `images/atc-dark.png`;
-  header.style.backgroundImage = "url('./../images/hero-dark.png')";
+  header.style.backgroundImage = "url('cara/images/hero-dark.png')";
   header.parentElement.style.backgroundColor = `#515256`;
 };
 
@@ -418,6 +418,6 @@ changeToLightMode = () => {
   });
   modeImg.src = `images/dark-mode.png`;
   addToCartImg.src = `images/atc.png`;
-  header.style.backgroundImage = "url('./../images/hero.png')";
+  header.style.backgroundImage = "url('cara/images/hero.png')";
   header.parentElement.style.backgroundColor = `#e3e6f3`;
 };
