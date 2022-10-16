@@ -263,10 +263,10 @@ const addToCart = (productId) => {
 <div class="unit-price">$${clickedProduct.price}</div>
 <div class="units">
   <div class="d-flex">
-    <button class="offcanvas-increase-btn pb-1 me-1" onclick = "increment(${clickedProduct.id})">+</button>
-    <button class="offcanvas-decrease-btn pb-1" onclick = "decrement(${clickedProduct.id})">-</button>
+    <button class="offcanvas-increase-btn me-1" onclick = "increment(${clickedProduct.id})">+</button>
+    <button class="offcanvas-decrease-btn" onclick = "decrement(${clickedProduct.id})">-</button>
     <p id = ${clickedProduct.id} class = "my-0 mx-1">${clickedProduct.quantity}</p>
-    <button class="offcanvas-remove-btn pb-1" onclick="remove(${clickedProduct.id})">x</button>
+    <button class="offcanvas-remove-btn" onclick="remove(${clickedProduct.id})">x</button>
   </div>
 </div>`;
     const createProduct = document.createElement(`div`);
